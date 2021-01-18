@@ -20,8 +20,12 @@ const Header = ({ siteTitle, menuOpen, setMenuOpen }) => {
     }
   `)
 
+  const styles = {
+    backgroundColor: '#81D8D0'
+  }
+
   return (
-    <header id="header">
+    <header id="header" style={styles}>
       <div className="container">
         <button
           id="site-logo-wrapper"
