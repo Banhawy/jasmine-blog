@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Image from "gatsby-image"
+import { Typography } from "@material-ui/core"
 
 const Featured = ({ markdown }) => {
   if (!markdown) {
@@ -21,7 +22,7 @@ const Featured = ({ markdown }) => {
                     fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                   />
                   <figcaption>
-                    <h2>{node.frontmatter.title}</h2>
+                    <Typography variant="h2">{node.frontmatter.title}</Typography>
                     <span>{node.frontmatter.category}</span>
                   </figcaption>
                 </Link>
@@ -39,7 +40,7 @@ const Featured = ({ markdown }) => {
                     fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                   />
                   <figcaption>
-                    <h2>{node.frontmatter.title}</h2>
+                    <Typography variant="h2">{node.frontmatter.title}</Typography>
                     <span>{node.frontmatter.category}</span>
                   </figcaption>
                 </Link>

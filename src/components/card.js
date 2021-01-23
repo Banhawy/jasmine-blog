@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Image from "gatsby-image"
+import { Typography } from "@material-ui/core"
 
 const Card = ({ frontmatter, slug }) => {
   return (
@@ -17,7 +18,7 @@ const Card = ({ frontmatter, slug }) => {
           <div className="card-topic">{frontmatter.category}</div>
         </Link>
         <Link to={slug}>
-          <h3>{frontmatter.title}</h3>
+          <Typography variant="h3">{frontmatter.title}</Typography>
         </Link>
       </figcaption>
     </figure>
