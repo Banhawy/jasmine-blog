@@ -22,7 +22,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -318,7 +318,7 @@ body {
   }
 }
 .card-styles figcaption h3 {
-  color: #142025;
+  /* color: #142025; */
   font-size: 24px;
   cursor: pointer;
 }
