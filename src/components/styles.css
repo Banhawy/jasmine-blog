@@ -91,7 +91,7 @@ body {
 @media (min-width: 601px) {
   #nav ul li a:hover,
   #site-logo:hover {
-    color: #f7102b;
+    color: #ef8354;
     transition: all 0.4s ease;
   }
 }
@@ -127,7 +127,7 @@ body {
   position: fixed;
   width: 100%;
   min-height: 100vh;
-  background: #fff;
+  background: rgba(120, 159, 161, 0.555);
   z-index: 25;
   padding: 20px;
 }
@@ -138,6 +138,14 @@ body {
 #menu li {
   margin-bottom: 16px;
   font-size: 18px;
+  text-align: center;
+}
+
+#menu .MuiMenu-list {
+  width: 100vw;
+}
+#menu .MuiListItem-root {
+  justify-content: center;
 }
 
 .menu-button {
@@ -329,7 +337,7 @@ body {
 }
 @media (min-width: 601px) {
   .card-styles figcaption h3:hover {
-    color: #f7102b;
+    color: #ef8354;
     transition: all 0.4s ease;
   }
 }
@@ -440,7 +448,7 @@ body {
 }
 @media (min-width: 601px) {
   .card-small-styles figcaption h3:hover {
-    color: #f7102b;
+    color: #ef8354;
     transition: all 0.4s ease;
   }
 }
@@ -598,7 +606,7 @@ footer {
 }
 @media (min-width: 601px) {
   #all-topics-link:hover {
-    color: #f7102b;
+    color: #ef8354;
     transition: all 0.4s ease;
   }
 }
@@ -636,7 +644,7 @@ footer {
 }
 @media (min-width: 601px) {
   #archive-link:hover {
-    color: #f7102b;
+    color: #ef8354;
     transition: all 0.4s ease;
   }
 }
@@ -654,7 +662,7 @@ footer {
 }
 @media (min-width: 601px) {
   .pagination-link:hover {
-    color: #f7102b;
+    color: #ef8354;
     transition: all 0.4s ease;
   }
 }
