@@ -22,7 +22,7 @@ const Featured = ({ markdown }) => {
                     fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                   />
                   <figcaption>
-                    <Typography variant="h2">{node.frontmatter.title}</Typography>
+                    <Typography variant="h5">{node.frontmatter.title}</Typography>
                     <span>{node.frontmatter.category}</span>
                   </figcaption>
                 </Link>
@@ -40,7 +40,7 @@ const Featured = ({ markdown }) => {
                     fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
                   />
                   <figcaption>
-                    <Typography variant="h2">{node.frontmatter.title}</Typography>
+                    <Typography variant="h5">{node.frontmatter.title}</Typography>
                     <span>{node.frontmatter.category}</span>
                   </figcaption>
                 </Link>
